@@ -62,6 +62,7 @@ group :development do
 
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
+  
 end
 
 group :test do
@@ -69,4 +70,11 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
   gem "webdrivers"
+  gem 'cucumber-rails' , require: false
+  gem 'database_cleaner'
+  gem 'rspec-rails','~> 4.1.0'
+  gem 'rails-controller-testing'
 end
+
+
+
